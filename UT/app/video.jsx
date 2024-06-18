@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import UPSC from "../component/Video/UPSC"
 
 const Video = () => {
   return (
     <View>
-      <Text>Video</Text>
+      <UPSC/>
     </View>
   )
 }

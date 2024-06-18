@@ -2,13 +2,13 @@
   "expo": {
     "name": "UT",
     "slug": "UT",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/i11.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/i1.jpg",
+      "image": "./assets/images/i11.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/i1.jpg",
+        "foregroundImage": "./assets/images/i11.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.akshaybarve.UT"
@@ -25,7 +25,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/i1.jpg"
+      "favicon": "./assets/images/i11.png"
     },
     "plugins": [
       "expo-router"
@@ -40,6 +40,12 @@
       "eas": {
         "projectId": "405988db-a1de-4419-91ff-ab6bab2a7e18"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/405988db-a1de-4419-91ff-ab6bab2a7e18"
     }
   }
 }

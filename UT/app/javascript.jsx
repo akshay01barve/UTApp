@@ -1,14 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Javascript from '../component/Javascript/Javascript'
 
-const Javascript = () => {
+const Javascrip = () => {
   return (
     <View>
-      <Text>Javascript</Text>
+     <Javascript/>
     </View>
   )
 }
 
-export default Javascript
+export default Javascrip
 
 const styles = StyleSheet.create({})
