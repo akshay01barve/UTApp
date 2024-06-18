@@ -1,14 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Aptitude from "../component/Aptitude/Aptitude"
 
-const Aptitude = () => {
+const Aptitud = () => {
   return (
     <View>
-      <Text>Aptitude</Text>
+      <Aptitude/>
     </View>
   )
 }
 
-export default Aptitude
+export default Aptitud
 
 const styles = StyleSheet.create({})
